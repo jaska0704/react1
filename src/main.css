@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid rgb(224, 210, 210);
+}
+.category_block {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+/* productCard stile start */
+.product-image {
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+    border: solid 1px rgb(208, 198, 198);
+}
+.product-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 66px;
+}
+.product-card-title, .product-card-price {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 14px;
+}
+.product-card-button {
+    margin-top: 16px;
+    margin-left: -150px;
+    text-align: left;
+    padding: 6px 38px 6px 39px;
+    border-radius: 10px;
+    background: #DB9969;
+    border: none;
+}
+/* productCard stile end */
+
+
+/* nav-bar stile start */
+.nav-bar {
+    width: 1200px;
+    background: rgb(239, 233, 225);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    overflow: hidden;
+    padding-block: 20px;
+    padding-inline: 20px;
+
+}
+.nav-input {
+    padding: 5px;
+}
+.nav-block1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.nav-block3-title {
+    display: inline-block;
+}
+/* nav-bar stile end */
+
+/* hero stile start */
+.hero {
+    display: flex;
+    padding-top: 68px;
+}
+.hero-block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #ede4dd;
+}
+.hero-image {
+    width: 700px;
+}
+.hero-block2-button {
+    padding-inline: 55px;
+    padding-block: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #DB9969;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* hero stile end */
